@@ -1,0 +1,663 @@
+h1 {
+
+  color: black;
+  position: absolute;
+  top: 415px;
+  left: 400px;
+  font-weight: bold;
+ 
+}
+
+h2 {
+
+  color: black;
+  position: absolute;
+  top: 520px;
+  left: 250px;
+  font-weight: bold;
+
+}
+
+h3 {
+
+  color: black;
+  position: absolute;
+  top: 590px;
+  left: 390px;
+  font-weight: bold;
+
+}
+
+.circle3 {
+  height: 100px;
+  width: 100px;
+  background-color: #CECECE;
+  border-radius: 50%;
+  position: fixed;
+  top: 610px;
+  left: 30px;
+}
+
+.circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 50%;
+  position: fixed;
+  top: 500px;
+  left: 30px;
+}
+
+.circle1 {
+  height: 100px;
+  width: 100px;
+  background-color: #E14D29;
+  border-radius: 50%;
+  position: fixed;
+  top: 390px;
+  left: 30px;
+}
+
+.line {
+  height: 1500px;
+  width: 2px;
+  background-color: #DADFDB;
+  position: relative;
+  top: 0px;
+  left: 70px;
+}
+
+.line1 {
+  height: 1500px;
+  width: 2px;
+  background-color: #DADFDB;
+  position: absolute;
+  top: 0px;
+  left: 74px;
+}
+
+.line2 {
+  height: 1500px;
+  width: 2px;
+  background-color: #DADFDB;
+  position: absolute;
+  top: 0px;
+  left: 78px;
+}
+
+.line3 {
+  height: 1500px;
+  width: 2px;
+  background-color: #DADFDB;
+  position: absolute;
+  top: 0px;
+  left: 82px;
+}
+
+.line4 {
+  height: 1500px;
+  width: 2px;
+  background-color: #DADFDB;
+  position: absolute;
+  top: 0px;
+  left: 86px;
+}
+
+
+h4 {
+
+  color: black;
+  position: absolute;
+  top: 1108px;
+  left: 140px;
+  font-weight: bold;
+}
+
+p{
+  color: black;
+
+  font-size:13px;
+}
+
+/* .line5 {
+  height: 2px;
+  width: 360px;
+  background-color: black;
+  position: absolute;
+  top: 1380px;
+  left: 420px;
+} */
+
+/* .grectangle {
+  height: 170px;
+  width: 805px;
+  background-color: #DADFDB;
+  position: absolute;
+  top: 1330px;
+  left: 0px;
+
+} */
+
+.stack-top{
+  z-index: 9;
+  margin: 20px; /* for demo purpose  */
+}
+
+.wrectangletopleft {
+  height: 220px;
+  width: 925px;
+  background-color: #E1DCD9;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.wrectanglebottomright {
+  height: 240px;
+  width: 800px;
+  background-color: #E1DCD9;
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+}
+
+.wrectangleblackmiddle {
+  height: 50px;
+  width: 420px;
+  background-color: black;
+  position: absolute;
+  bottom: 500px;
+  right: 325px;
+}
+
+.wrectangleblacktitle {
+  height: 180px;
+  width: 470px;
+  background-color: black;
+  position: absolute;
+  bottom: 220px;
+  left: 0px;
+}
+
+.wrectangleblackleft {
+  height: 180px;
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  bottom: 220px;
+  left: 500px;
+}
+
+.wrectangleblackmright {
+  height: 235px;
+  width: 120px;
+  background-color: black;
+  position: absolute;
+  top: 205px;
+  right: 0px;
+}
+
+
+.wrectangleblackright {
+  height: 440px;
+  width: 35px;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  right: 140px;
+}
+
+/* .wrectanglebehindimage1 {
+  height: 152px;
+  width: 102px;
+  background-color: black;
+  position: absolute;
+  top: 49px;
+  left: 169px;
+} */
+
+/* .orangerectangle{
+  height: 30px;
+  width: 400px;
+  background-color: #E14D29;
+  position: absolute;
+  top: 1450px;
+  left: 0px;
+} */
+
+.backgroundtophoto1{
+  height: 350px;
+  width: 700px;
+  background-color: #DADFDB;
+  position: absolute;
+  top: 1150px;
+  left: 0px;
+
+}
+
+.backgroundtophoto2{
+  height: 25px;
+  width: 200px;
+  background-color: #E14D29;
+  position: absolute;
+  top: 1125px;
+  right: 0px;
+
+}
+
+.backgroundtophoto3{
+  height: 25px;
+  width: 200px;
+  background-color: #E14D29;
+  position: absolute;
+  top: 1125px;
+  right: 0px;
+
+}
+
+
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #AD5561;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+ 
+  outline: none;
+}
+
+
+
+/* 16 */
+.btn-16 {
+  border: none;
+}
+
+
+.btn-16:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+
+
+.btn-16:hover {
+  
+  font-weight: bold;
+  
+}
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+.btn-16:active {
+  top: 2px;
+}
+
+
+
+/* ///////////////// */
+/* CONTACT PAGE STYLING */
+/* ////////////////// */
+
+
+.csquare1 {
+  height: 500px;
+  width: 500px;
+  background-image: linear-gradient(to bottom right , #8D1E1C, #E3DAD5, #274F4F );
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.csquare2 {
+  height: 480px;
+  width: 480px;
+  background-image: linear-gradient(to bottom right , #C52E19, #D8D3CF, #3B6E6A );
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 110px;
+  left: 110px;
+}
+
+.csquare3 {
+  height: 460px;
+  width: 460px;
+  background-image: linear-gradient(to bottom right , #D17931, #D8D3CF, #8C9F9D );
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+
+.csquare4 {
+  height: 440px;
+  width: 440px;
+  background-color: #EAE6E3;
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 130px;
+  left: 130px;
+}
+
+.csquare5 {
+  height: 420px;
+  width: 420px;
+  background-image: linear-gradient(to bottom right , #D17931, #D8D3CF, #8C9F9D );
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 140px;
+  left: 140px;
+}
+
+.csquare6 {
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(to bottom right , #C52E19, #D8D3CF, #3B6E6A );
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+.csquare7 {
+  height: 380px;
+  width: 380px;
+  background-image: linear-gradient(to bottom right , #8D1E1C, #E3DAD5, #274F4F );
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 160px;
+  left: 160px;
+}
+
+.csquare8 {
+  height: 360px;
+  width: 360px;
+  background-color: black;
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 170px;
+  left: 170px;
+}
+
+.csquare9{
+  height:95px;
+  width:210px;
+  background-color: black;
+  position:absolute;
+  top:0px;
+  right:0px;
+}
+
+.csquare10{
+  height: 210px;
+  width:417px;
+  background-color: black;
+  position:absolute;
+  bottom:0px;
+  right:0px;
+}
+
+.cbboxontop{
+  position:absolute;
+  top:0px;
+  left:150px;
+  height: 150px;
+  width: 1300px;
+  background-color: black;
+
+}
+
+.cbboxontop2{
+  position:absolute;
+  top:0px;
+  left:600px;
+  height: 250px;
+  width: 310px;
+  background-color: black;
+
+}
+
+
+.cbboxonleft{
+  position:absolute;
+  top:50px;
+  left:0px;
+  height: 682px;
+  width: 160px;
+  background-color: black;
+
+}
+
+.cbboxonright{
+  position:absolute;
+  top:240px;
+  right: -20px;
+  height:200px;
+  width: 405px;
+  background-color: black;
+
+}
+
+
+.cbboxinmiddle{
+  position:absolute;
+  top:320px;
+  left:600px;
+  height:300px;
+  width: 700px;
+  background-color: black;
+
+}
+
+.cbboxinmiddle2{
+  position:absolute;
+  top:240px;
+  right:0px;
+  height:10px;
+  width: 500px;
+  background-color: black;
+
+}
+
+
+.cbboxinbottom{
+  position:absolute;
+  top:340px;
+  left:0px;
+  height:280px;
+  width: 700px;
+  background-color: black;
+
+}
+
+.cbboxinbottom2{
+  position:absolute;
+  top:340px;
+  left:0px;
+  height:80px;
+  width: 700px;
+  background-color: black;
+
+}
+
+.cbboxabovenavbar{
+  position:absolute;
+  top:0px;
+  right: 385px;
+  height:350px;
+  width: 9px;
+  background-color: black;
+
+}
+
+
+/* two vertical line above the graident box */
+.cwhiteline1{
+position: absolute;
+top:0px;
+left: 150px;
+background-color: white;
+height: 100px;
+width: 1px;
+
+}
+
+.cwhiteline2{
+  position: absolute;
+  top:0px;
+  left: 160px;
+  background-color: white;
+  height: 100px;
+  width: 1px;
+  
+  }
+
+  /* two vertical lines below the gradietn box */
+
+
+  .cwhiteline3{
+    position: absolute;
+    bottom:0px;
+    left: 150px;
+    background-color: white;
+    height: 132px;
+    width: 1px;
+    
+    }
+
+    .cwhiteline4{
+      position: absolute;
+      bottom:0px;
+      left: 159px;
+      background-color: white;
+      height: 132px;
+      width: 1px;
+      
+      }
+
+      /* horizontal line below the gradient */
+
+
+      .cwhiteline5{
+        position: absolute;
+      bottom:111px;
+      left: 0;
+      background-color: white;
+      height: 1px;
+      width: 500px;
+      }
+
+
+      /* horizontal line above the gradient */
+
+      .cwhiteline6{
+        position: absolute;
+      top:48px;
+      left: 150px;
+      background-color: white;
+      height: 1px;
+      width: 870px;
+      }
+
+       /* two vertical line above next to the top gradient */
+
+       .cwhiteline7{
+        position: absolute;
+      top:0px;
+      right: 393px;
+      background-color: white;
+      height: 420px;
+      width: 1px;
+      }
+
+      .cwhiteline8{
+        position: absolute;
+      top:0px;
+      right: 384px;
+      background-color: white;
+      height: 420px;
+      width: 1px;
+      }
+
+
+      /* one horizontal line below top gradient and next to full gradient box */
+
+      .cwhiteline9{
+        position: absolute;
+      top:150px;
+      right: 0px;
+      background-color: white;
+      height: 1px;
+      width: 700px;
+      }
+
+
+
+      /*  horizontal lines below and above navbar */
+      .cwhiteline10{
+        position: absolute;
+      top:330px;
+      right: 0px;
+      background-color: white;
+      height: 1px;
+      width: 700x;
+      }
+
+      .cwhiteline11{
+        position: absolute;
+      top:320px;
+      right: 0px;
+      background-color: white;
+      height: 1px;
+      width: 700px;
+      }
+
+      .cwhiteline12{
+        position: absolute;
+      top:250px;
+      right: 0px;
+      background-color: white;
+      height: 1px;
+      width: 700px;
+      }
+
+      .cwhiteline13{
+        position: absolute;
+      top:240px;
+      right: 0px;
+      background-color: white;
+      height: 1px;
+      width: 700px;
+      }
